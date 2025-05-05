@@ -1,1 +1,32 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    z-index: 1000;
+  }
   
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 1.5rem;
+  }
+  
+  .navbar a, .navbar button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover, .navbar button:hover {
+    color: #ddd;
+  }
