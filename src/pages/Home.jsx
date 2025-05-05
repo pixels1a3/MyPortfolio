@@ -5,26 +5,35 @@ import MySkills from '../components/MySkills';
 import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import '../App.css';
 
 const Home = () => {
   return (
     <div>
+      
       <Navbar />
-      <div id="hero">
-        <HeroSection />
+      
+      <div className="content-below-navbar">
+        <div id="hero">
+            <HeroSection />
+        </div>
+
+        <div id="about">
+            <AboutMe />
+        </div>
+        
+        <div id="skills">
+            <MySkills />
+        </div>
+        
+        <div id="contact">
+            <ContactMe />
+        </div>
+        
+        <Footer />
       </div>
-      <div id="about">
-        <AboutMe />
-      </div>
-      <div id="skills">
-        <MySkills />
-      </div>
-      <div id="contact">
-        <ContactMe />
-      </div>
-      <Footer />
     </div>
   );
 };
 
-export default Home;    
+export default Home;
