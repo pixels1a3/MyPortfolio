@@ -6,9 +6,12 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Tiam Svensson Saramolki</h1>
-          <p className="occupation">Frontend Developer</p>
-          <p className="description">Uppsala, Sweden</p>
+          <p className="name">Tiam Svensson Saramolki</p>
+          <p className="description">
+            Frontend Developer
+            <br />
+            Uppsala, Sweden
+          </p>
         </div>
         <div className="hero-image">
           <img src="profile_pic.jpg" alt="Your Name - Profile Picture" />
