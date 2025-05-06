@@ -14,7 +14,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="hero-image">
-          <img src="profile_pic.jpg" alt="Your Name - Profile Picture" />
+          <img src="profile_pic.jpg" alt="Tiam" />
         </div>
       </div>
     </section>
