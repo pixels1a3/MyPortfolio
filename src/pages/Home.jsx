@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
 import AboutMe from '../components/AboutMe';
-import MySkills from '../components/MySkills';
+import Projects from '../components/Projects';
 import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -22,8 +22,8 @@ const Home = () => {
             <AboutMe />
         </div>
         
-        <div id="skills">
-            <MySkills />
+        <div id="projects">
+            <Projects />
         </div>
         
         <div id="contact">

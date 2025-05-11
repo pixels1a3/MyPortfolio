@@ -23,6 +23,14 @@ const AboutMe = () => {
         </ul>
       </div>
     </div>
+    <a
+      href="https://drive.google.com/my-link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="cv-button"
+    >
+      Download CV
+    </a>
   </div>
 </section>
   );
