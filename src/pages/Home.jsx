@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
-import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
+import AboutMe from '../components/AboutMe';
 import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -17,13 +17,13 @@ const Home = () => {
         <div id="hero">
             <HeroSection />
         </div>
-
-        <div id="about">
-            <AboutMe />
-        </div>
         
         <div id="projects">
             <Projects />
+        </div>
+
+        <div id="about">
+            <AboutMe />
         </div>
         
         <div id="contact">
