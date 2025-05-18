@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0e1;
+  background: linear-gradient(135deg, #f9f9f9 0%, #e8f0fa 100%);
 }
 
 .content-below-navbar {

@@ -8,7 +8,7 @@ const ContactMe = () => {
       <div className="contact-content">
         <h2 className="contact-title">Contact Me</h2>
         <p className="contact-description">
-          I'm always open to new opportunities and collaborations.<br/>Feel free to contact me at any time!
+          I'm always open to new opportunities and collaborations. <br/>Feel free to contact me at any time!
         </p>
         <div className="contact-links">
           <a

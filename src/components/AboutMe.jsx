@@ -24,12 +24,12 @@ const AboutMe = () => {
       </div>
     </div>
     <a
-      href="https://drive.google.com/my-link"
+      href="https://docs.google.com/document/d/1CatUFA4iuZD9rMjbEbs73-u9Sq5pLbMIl9FwSAWodEw/edit?tab=t.0#heading=h.95p5ij59bwmv"
       target="_blank"
       rel="noopener noreferrer"
       className="cv-button"
     >
-      Download CV
+      View my CV
     </a>
     <p className="about-description">Logic and systems have always interested me, which probably explains my life-long interest in linguistics. Prior to entering Frontend, I was studying linguistics and Japanese at university, the latter for almost one year in Japan. I realized that not only does human language interest me, but so does coding languages as well, whereby I chose to enter Frontend!</p>
   </div>
