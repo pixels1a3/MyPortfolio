@@ -31,6 +31,7 @@ const AboutMe = () => {
     >
       Download CV
     </a>
+    <p className="about-description">Logic and systems have always interested me, which probably explains my life-long interest in linguistics. Prior to entering Frontend, I was studying linguistics and Japanese at university, the latter for almost one year in Japan. I realized that not only does human language interest me, but so does coding languages as well, whereby I chose to enter Frontend!</p>
   </div>
 </section>
   );
