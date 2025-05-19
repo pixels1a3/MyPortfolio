@@ -1,5 +1,5 @@
 .projects-section {
-  padding-bottom: 120px;
+  padding: 0 0 120px 0;
   text-align: center;
 }
 
@@ -19,10 +19,10 @@
 .project-box {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 250px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: inherit;
   overflow: hidden;
@@ -31,23 +31,86 @@
 
 .project-box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-image {
   width: 100%;
-  height: 200px;
+  height: 160px;
   object-fit: cover;
 }
 
 .project-title {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 15px 10px 10px 10px;
   color: #222;
 }
 
 .project-description {
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 0 10px 15px 10px;
   color: #555;
+}
+
+
+@media (min-width: 1080px) {
+  .projects-section {
+    padding: 70px 70px 120px 70px;
+  }
+
+  .projects-title {
+    font-size: 2.7em;
+  }
+
+  .projects-container {
+    gap: 30px;
+  }
+
+  .project-box {
+    width: 250px;
+  }
+
+  .project-image {
+    height: 160px;
+  }
+
+  .project-title {
+    font-size: 1.3em;
+  }
+
+  .project-description {
+    font-size: 0.9em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 15px 15px 80px 15px;
+  }
+
+  .projects-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .projects-container {
+    gap: 15px;
+  }
+
+  .project-box {
+    width: 200px;
+  }
+
+  .project-image {
+    height: 120px;
+  }
+
+  .project-title {
+    font-size: 1.2em;
+  }
+
+  .project-description {
+    font-size: 0.8em;
+  }
 }

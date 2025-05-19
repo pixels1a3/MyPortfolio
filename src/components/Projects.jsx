@@ -6,13 +6,13 @@ const projects = [
     name: "Country Statistics Site",
     description: "A site summarizing interesting statistics of the world's countries using API calls.",
     image: "/images/country-stats.png",
-    link: "https://placeholder.com"
+    link: "https://countrystatistics.netlify.app/"
   },
   {
     name: "Weather App",
     description: "Real-time and real-location weather forecasts, created with HTML, CSS and JavaScript, using Open-Meteo API.",
     image: "/images/weather-app.png",
-    link: "https://placeholder.com"
+    link: "tiamweatherapp.netlify.app"
   },
   {
     name: "Quiz",
