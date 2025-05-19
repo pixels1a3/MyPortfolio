@@ -12,7 +12,7 @@ const projects = [
     name: "Weather App",
     description: "Real-time and real-location weather forecasts, created with HTML, CSS and JavaScript, using Open-Meteo API.",
     image: "/images/weather-app.png",
-    link: "tiamweatherapp.netlify.app"
+    link: "https://tiamweatherapp.netlify.app/"
   },
   {
     name: "Quiz",
