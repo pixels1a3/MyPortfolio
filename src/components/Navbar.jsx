@@ -1,24 +1,33 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import './Navbar.css';
 
 const Navbar = () => {
+  const navItems = [
+    { to: 'hero', label: 'Home' },
+    { to: 'projects', label: 'Projects' },
+    { to: 'about', label: 'About' },
+    { to: 'contact', label: 'Contact' },
+  ];
+
   return (
-    <nav className="navbar">
-      <ul>
-        <li>
-          <Link to="hero" smooth={true} duration={500}>Home</Link>
-        </li>
-        <li>
-          <Link to="projects" smooth={true} duration={500}>Projects</Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>About</Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>Contact</Link>
-        </li>
-      </ul>
+    <nav className="navbar navbar-expand-lg fixed-top bg-dark text-white shadow py-3">
+      <div className="container-sm">
+        <ul className="navbar-nav mx-auto flex-row justify-content-center">
+          {navItems.map((item, index) => (
+            <li key={index} className="nav-item mx-3">
+              <Link
+                to={item.to}
+                smooth={true}
+                duration={200}
+                offset={-70}
+                className="nav-link text-white fs-4 custom-nav-link"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 };

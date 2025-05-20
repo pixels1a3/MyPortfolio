@@ -1,9 +1,12 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #f9f9f9 0%, #e8f0fa 100%);
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.content-below-navbar {
-  padding-top: 80px;
+.custom-nav-link {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-nav-link:hover {
+  color: #cccccc !important;
 }
