@@ -36,7 +36,6 @@ const Footer = () => {
             GitHub
           </a>
         </div>
-        <p className="text-muted fs-6 mb-0">&copy; 2025 Tiam Svensson Saramolki</p>
       </div>
     </footer>
   );
